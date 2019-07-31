@@ -21,9 +21,9 @@
 
 <body>
 
-  <header>
+  <header id="top">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light" id="top">
+    <nav class="navbar navbar-expand-lg navbar-light" >
       <a href="index.html" class="navbar-brand">
         <img src="img/kvrpk_logo.png" alt="brand logo" class="logo">
       </a>
@@ -32,8 +32,8 @@
       </button>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item mx-2 nav-active">
-            <a href="index.html" class="nav-link">Domov</a>
+          <li class="nav-item mx-2 ">
+            <a href="#banner" class="nav-link">Domov</a>
           </li>
           <li class="nav-item mx-2 ">
             <a href="#about" class="nav-link">Klub</a>
@@ -42,7 +42,7 @@
             <a href="#resevalni-psi" class="nav-link">Reševalni pes</a>
           </li>
           <li class="nav-item mx-2 ">
-            <a href="#wedo" class="nav-link">Novice</a>
+            <a href="#wedo" class="nav-link">Aktivnosti</a>
           </li>
           <li class="nav-item mx-2 ">
             <a href="#obedience" class="nav-link">Šolanje</a>
@@ -58,7 +58,7 @@
     </nav>
     <!-- END OF NAVBAR -->
     <!-- BANNER -->
-    <div class="banner d-flex align-items-center pl-3 pl-lg-5">
+    <div class="banner d-flex align-items-center pl-3 pl-lg-5" id="banner">
       <div>
         <h1 class="text-capitalize mb-5 welcome">dobrodošli na spletni strani</h1>
         <h1 class="text-uppercase font-weight-bold">klub vodnikov reševalnih psov Kranj</h1>
@@ -129,12 +129,12 @@
   <!-- SAR DOGS -->
   <section id="resevalni-psi">
     <div class="container-fluid">
-      <div class="row home-filler align-items-center pb-5">
-        <div class="col-md-6 col-lg-3 sar-item">
-          <img src="img/aboutImg/about-1.jpg" alt="preview" class="img-fluid sar-dogs">
+      <div class="row home-filler align-items-center justify-content-center p-3">
+        <div class="col-md-6 col-lg-3 sar-item py-3 ml-3">
+          <img src="img/aboutImg/about-1.jpg" alt="preview" class="img-fluid sar-dogs1">
         </div>
 
-        <div class="col-10 col-md-4 mx-auto text-white text-center">
+        <div class="col-10 col-md-6 col-lg-4 mx-auto text-white text-center mt-3">
           <h4 class="text-uppercase font-weight-bold">
             reševalni psi
           </h4>
@@ -152,7 +152,7 @@
 
 
         </div>
-        <div class="col-md-6 col-lg-3 sar-item">
+        <div class="col-md-6 col-lg-3 sar-item mr-3">
           <img src="img/aboutImg/about-1.jpg" alt="preview" class="img-fluid sar-dogs">
         </div>
       </div>
@@ -161,10 +161,10 @@
   <!-- END OF SAR DOGS -->
   <!-- what we do-->
   <section class="what py-5" id="wedo">
-    <div class="container">
-      <row class="my-2 d-flex">
+    <div class="container-fluid">
+      <div class="row w-85 d-flex mx-auto my-2 col-10">
         <!-- single introduction what we do-->
-        <div class="col-10 col-md-6 col-lg-4 mx-auto text-center do-img">
+        <div class=" col-md-6 col-lg-3 mx-auto text-center do-img pb-3">
           <div class="what-container">
             <img src="img/aboutImg/wedo-1.jpg" alt="" class="img-fluid what-img">
             <h3 class="text-uppercase text-center obedience">reševanje</h3>
@@ -180,12 +180,13 @@
         <!-- end of single introduction what we do-->
 
         <!-- single introduction what we do-->
-        <div class="col-10 col-md-6 col-lg-4 mx-auto text-center do-img">
+        <div class="col-md-6 col-lg-3 mx-auto text-center do-img pb-3">
           <div class="what-container">
             <img src="img/aboutImg/wedo-1.jpg" alt="" class="img-fluid what-img">
             <h3 class="text-uppercase text-center obedience">šolanje</h3>
             <div class="text-test">
-              <div class="what-text">Reševalne pse šolamo po principu pozitivne motivacije. S šolanjem pričnemo že z
+              <div class="what-text text-center text-wrap">Reševalne pse šolamo po principu pozitivne
+                motivacije. S šolanjem pričnemo že z
                 mladički. Program dela v tečaju obsega iskanje, premagovanje ovir in poslušnost. Vsem, ki jih zanima
                 šolanje priporočamo, da si delo pridejo tudi v živo
                 ogledat na naš poligon v Struževem.</div>
@@ -196,7 +197,7 @@
         <!-- end of single introduction what we do-->
 
         <!-- single introduction what we do-->
-        <div class="col-10 col-md-6 col-lg-4 mx-auto text-center do-img">
+        <div class="col-md-6 col-lg-3 mx-auto text-center do-img">
           <div class="what-container">
             <img src="img/aboutImg/wedo-1.jpg" alt="" class="img-fluid what-img">
             <h3 class="text-uppercase text-center obedience">tekmovanje</h3>
@@ -212,7 +213,7 @@
         <!-- end of single introduction what we do-->
 
 
-      </row>
+      </div>
     </div>
   </section>
   <!-- end of what we do-->
@@ -232,7 +233,7 @@
       <!-- end of section title -->
       <div class="row">
         <!-- featured info -->
-        <div class="col-10 mx-auto col-lg-5 featured-info my-3">
+        <div class="col-10 mx-auto col-lg-5 col-md-6 featured-info my-3">
           <!-- single item -->
           <a href="solanje.html" class="obedience-link">
             <div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
@@ -281,7 +282,7 @@
 
         </div>
         <!-- featured img -->
-        <div class="col-10 mx-auto col-lg-5 featured-img align-self-center my-3">
+        <div class="col-10 mx-auto col-lg-5 col-md-6 featured-img align-self-center my-3">
           <!-- img container -->
           <div class="img-container">
             <img src="img/pageBcg/ira.jpg" alt="" class="img-fluid featured-photo">
