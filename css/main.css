@@ -160,7 +160,11 @@ body {
   .welcome,
   .welcome2,
   .welcome3 {
-    font-size: 1.2rem;
+    font-size: 2rem !important;
+  }
+
+  .welcome {
+    padding-top: 100px;
   }
 }
 
