@@ -157,6 +157,11 @@ body {
     min-height: calc(100vh - 126px);
     background: url('../img/pageBcg/ira.jpg')center/cover no-repeat fixed;
   }
+  .welcome,
+  .welcome2,
+  .welcome3 {
+    font-size: 2rem;
+  }
 }
 
 .welcome {
