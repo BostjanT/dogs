@@ -154,17 +154,16 @@ body {
 @media screen and (max-width: 1000px) {
   .banner {
     clip-path: none;
-    min-height: calc(100vh - 126px);
+    min-height: calc(70vh - 126px);
     background: url('../img/pageBcg/ira.jpg')center/cover no-repeat fixed;
   }
-  .welcome,
-  .welcome2,
-  .welcome3 {
+  .welcome, .welcome2, .welcome3 {
     font-size: 2rem !important;
+    text-align: center;
+    line-height: 1.6;
   }
-
   .welcome {
-    padding-top: 50px;
+    padding-top: 70px !important;
   }
 }
 
@@ -470,11 +469,9 @@ hr {
   transition: 0.5s all ease-in-out;
 }
 
-
 .obedience-link {
   color: var(--mainBlack);
   text-decoration: none !important;
-  
 }
 
 .obedience-link:hover {
@@ -735,10 +732,10 @@ hr.store-hr {
 /*  footer  */
 
 #back-to-top {
-  background: var(--mainBlue);
+  background: var(--mainBlack);
   border-radius: 5px;
   display: inline-block;
-  color: black;
+  color: var(--mainBlue);
   z-index: 999;
 }
 
