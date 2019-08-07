@@ -1804,7 +1804,8 @@ img {
 .video-slideshow {
   position: relative;
   z-index: 5;
-  border-top: 2px solid #21b8ef;
+  
+  
 }
 
 .video-slideshow::after {
