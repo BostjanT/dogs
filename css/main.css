@@ -732,10 +732,10 @@ hr.store-hr {
 /*  footer  */
 
 #back-to-top {
-  background: var(--mainBlack);
+  background: var(--mainGrey);
   border-radius: 5px;
   display: inline-block;
-  color: var(--mainBlue);
+  color: var(--mainWhite);
   z-index: 999;
 }
 
