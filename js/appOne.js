@@ -14,6 +14,11 @@ $(document).ready(function () {
         }
     });
 
+    // toggler button
+    $('.navbar-toggler').click(function () {
+        $('.navbar-toggler').toggleClass('change');
+    });
+
  /*    //smooth scroll
     $('.nav-item a, .navbar-icons, #back-to-top').click(function (link) {
         link.preventDefault();
