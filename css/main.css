@@ -95,7 +95,7 @@ body {
       outline: none !important;
       border: none;
       font-size: 2.2rem;
-      color: var(--mainBlue) !important;
+      color: var(--mainWhite) !important;
     }
     .navbar-background {
       padding: 5px 0px;
