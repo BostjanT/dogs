@@ -1804,8 +1804,6 @@ img {
 .video-slideshow {
   position: relative;
   z-index: 5;
-  
-  
 }
 
 .video-slideshow::after {
@@ -1814,7 +1812,7 @@ img {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   content: '';
   z-index: -1;
 }
