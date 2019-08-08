@@ -176,7 +176,7 @@ body {
   background: url('../img/pageBcg/ira.jpg')center/cover no-repeat fixed;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .banner {
     clip-path: none;
     min-height: calc(70vh - 126px);
@@ -186,6 +186,9 @@ body {
     font-size: 2rem !important;
     text-align: center;
     line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .welcome, .welcome3 {
     padding-top: 70px !important;
@@ -193,12 +196,14 @@ body {
 }
 
 .welcome {
-  padding-top: 450px;
-  font-size: 4rem;
+  padding-top: 400px;
 }
 
-.welcome2 {
+.welcome, .welcome2 {
   font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .welcome3 {
