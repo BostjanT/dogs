@@ -84,7 +84,7 @@ body {
       display: flex;
     }
     .navbar-light {
-      background: var(--TransBlue);
+      background: var(--mainBlue);
       transition: all 1s ease;
       z-index: 999;
     }
@@ -98,7 +98,7 @@ body {
       color: var(--mainBlue) !important;
     }
     .navbar-background {
-      padding: 15px 0px;
+      padding: 5px 0px;
       /* height: 85px; */
       left: 0 !important;
     }
